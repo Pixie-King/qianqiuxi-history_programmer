@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyMainScene</class>
+ <widget class="QWidget" name="MyMainScene">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1500</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1500</width>
+     <height>900</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>6</number>
+   </property>
+   <widget class="QWidget" name="page1"/>
+   <widget class="QWidget" name="page2"/>
+   <widget class="QWidget" name="page3"/>
+   <widget class="QWidget" name="page4"/>
+   <widget class="QWidget" name="page5"/>
+   <widget class="QWidget" name="page6">
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>410</y>
+       <width>991</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="image.qrc">:/image/Image/CV.png</pixmap>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page7">
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>610</y>
+       <width>72</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="mouseTracking">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
+ <connections/>
+</ui>

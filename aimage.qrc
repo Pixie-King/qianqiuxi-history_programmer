@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/n">
+        <file>aiimage/timg-1.jpg</file>
+    </qresource>
+</RCC>

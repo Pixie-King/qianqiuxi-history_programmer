@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>promainwindow</class>
+ <widget class="QWidget" name="promainwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1500</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image: url(:/image2/bj2.png);</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1500</width>
+     <height>900</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="page1"/>
+   <widget class="QWidget" name="page2"/>
+   <widget class="QWidget" name="page3"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
